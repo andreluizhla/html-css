@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML 5</title>
+</head>
+<body>
+    <h1>Imagens para cada tipo de tela</h1>
+    <p>Redimencione a janela, aumentando e dimin</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/pequeno.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/medio.png" type="image/png">
+        <img src="imagens/grande.png" alt="Uma imagem grande">
+    </picture>
+    <h2>Um áudio para animar</h2>
+    <audio preload="metadata" controls autoplay loop>
+        <source src="audio/happy-mistake.mp3" type="audio/mpeg">
+    </audio>
+    <h2>Temos um vídeo dos sevidores do Youtube/Google</h2>
+    <iframe title="Formatos de vídeo para seu site - @Curso em Vídeo HTML5 e CSS3" width="600" height="338" src="https://www.youtube.com/embed/DjOSM72cYac?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+</body>
+</html>

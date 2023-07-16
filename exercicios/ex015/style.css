@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(50, 50, 50);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: orangered;
+}
+
+h2 {
+    color: lightblue;
+}
+
+p {
+    color: aliceblue;
+}
+
+a {
+    color: cornflowerblue;
+}
