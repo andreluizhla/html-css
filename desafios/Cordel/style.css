@@ -21,3 +21,10 @@ a:hover{
 section{
     font-family: cursive;
 }
+
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    
+}
