@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: -5px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+section{
+    font-family: cursive;
+}
