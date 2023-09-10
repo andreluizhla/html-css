@@ -1,15 +1,31 @@
 @charset "UTF-8";
 
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --cor1: white;
+}
+
+body{
+    font-family: cursive;
+}
+
 header {
     background-color: black;
-    color: white;
+    color: var(--cor1);
     text-align: center;
-    padding: 10px;
-    margin: -5px;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10vw;
 }
 
 a {
-    color: white;
+    color: var(--cor1);
     text-decoration: none;
     font-weight: bold;
 }
@@ -18,13 +34,28 @@ a:hover{
     text-decoration: underline;
 }
 
-section{
-    font-family: cursive;
+
+
+#foto1{
+    width: 98vw;
+    background: gray url(pacote-d012/imagens/background001.jpg) center center no-repeat fixed;
+    color: var(--cor1);
+}
+
+#foto1 > p{
+    background-color: rgba(128, 128, 128, 0.516);
+    
+}
+
+#foto2{
+    background-size: cover;
+    background: gray url(pacote-d012/imagens/background002.jpg) center center no-repeat fixed;
+    color: var(--cor1);
 }
 
 footer{
     background-color: black;
     text-align: center;
-    color: white;
+    color: var(--cor1);
     
 }
