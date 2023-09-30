@@ -54,39 +54,40 @@ section{
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--fonte2);
+    font-size: 3.5vw;
 }
 
 section.normal{
     background-color: white;
     color: black;
-    background-image: none;
 }
 
 section.imagem {
+    box-shadow: inset 8px 8px 13px rgb(0 0 0 / 51%);
     color: white;
+    background-size: cover;
     background-color: rgb(51, 51, 51);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+section > p {
+    padding-bottom: 2em;
 }
 
 section.imagem > p{
+    display: inline-block;
+    padding: 7px;
     background-color: rgba(30, 29, 29, 0.494);
-    width: 300px;
 }
 
-#foto1{
-    width: 98vw;
-    background: gray url(pacote-d012/imagens/background001.jpg) center center no-repeat fixed;
-    color: var(--cor1);
+section#img01{
+    background-image: url(pacote-d012/images/background001.jpg);
+    background-position: right center;
 }
 
-#foto1 > p{
-    background-color: rgba(128, 128, 128, 0.516);
-    
-}
-
-base{
-    background-size: cover;
-    background: gray url(pacote-d012/imagens/background002.jpg) center center no-repeat fixed;
-    color: var(--cor1);
+section#img02{
+    background-image: url(pacote-d012/images/background002.jpg);
 }
 
 footer{
