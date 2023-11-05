@@ -8,11 +8,18 @@
 		table{
 			border-collapse: collapse;
 			width: 500px;
+			position: relative;
 		}
 
 		thead, tfoot{
 			background-color: gray;
 			color: white;
+		}
+
+		thead > tr > th{
+			position: sticky;
+			top: -1px;
+			background-color: gray;
 		}
 
 		td, th{
@@ -28,10 +35,11 @@
 <body>
 	<h1>Segunda Tabela</h1>
 	<table>
+		<caption>População das Unidades Federativas (De acordo com oo IBGE 2022)</caption>
 		<thead>
 			<tr>
-				<th>Estado</th>
-				<th>População</th>
+				<th scope="col">Estado</th>
+				<th scope="col">População</th>
 			</tr>
 		</thead>
 		<tbody>
@@ -146,10 +154,16 @@
 		</tbody>
 		<tfoot>
 			<tr>
-				<th>Total População</th>
+				<th scope="row">Total População</th>
 				<td class="num"><strong>203 062 512</strong></td>
 			</tr>
 		</tfoot>
 	</table>
+	<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime assumenda veniam cupiditate iusto impedit sed similique in facilis! Adipisci molestias aperiam laudantium delectus voluptas quod alias tempora explicabo aspernatur accusantium. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non molestias neque dicta ipsa minima numquam officiis tempora et incidunt reiciendis ea, praesentium esse consectetur! Animi, distinctio facere? Minus, tempora aliquid! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae ad perspiciatis qui pariatur eos natus assumenda ratione est sunt eaque, ea numquam similique molestiae totam excepturi nostrum, quia distinctio voluptatem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Et in rem consequuntur odit, incidunt molestiae alias corporis consectetur error modi saepe rerum doloribus non nostrum, quisquam dignissimos voluptates voluptate sunt?</p>
+	<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime assumenda veniam cupiditate iusto impedit sed similique in facilis! Adipisci molestias aperiam laudantium delectus voluptas quod alias tempora explicabo aspernatur accusantium. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non molestias neque dicta ipsa minima numquam officiis tempora et incidunt reiciendis ea, praesentium esse consectetur! Animi, distinctio facere? Minus, tempora aliquid! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae ad perspiciatis qui pariatur eos natus assumenda ratione est sunt eaque, ea numquam similique molestiae totam excepturi nostrum, quia distinctio voluptatem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Et in rem consequuntur odit, incidunt molestiae alias corporis consectetur error modi saepe rerum doloribus non nostrum, quisquam dignissimos voluptates voluptate sunt?</p>
+	<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime assumenda veniam cupiditate iusto impedit sed similique in facilis! Adipisci molestias aperiam laudantium delectus voluptas quod alias tempora explicabo aspernatur accusantium. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non molestias neque dicta ipsa minima numquam officiis tempora et incidunt reiciendis ea, praesentium esse consectetur! Animi, distinctio facere? Minus, tempora aliquid! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae ad perspiciatis qui pariatur eos natus assumenda ratione est sunt eaque, ea numquam similique molestiae totam excepturi nostrum, quia distinctio voluptatem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Et in rem consequuntur odit, incidunt molestiae alias corporis consectetur error modi saepe rerum doloribus non nostrum, quisquam dignissimos voluptates voluptate sunt?</p>
+	<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime assumenda veniam cupiditate iusto impedit sed similique in facilis! Adipisci molestias aperiam laudantium delectus voluptas quod alias tempora explicabo aspernatur accusantium. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non molestias neque dicta ipsa minima numquam officiis tempora et incidunt reiciendis ea, praesentium esse consectetur! Animi, distinctio facere? Minus, tempora aliquid! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae ad perspiciatis qui pariatur eos natus assumenda ratione est sunt eaque, ea numquam similique molestiae totam excepturi nostrum, quia distinctio voluptatem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Et in rem consequuntur odit, incidunt molestiae alias corporis consectetur error modi saepe rerum doloribus non nostrum, quisquam dignissimos voluptates voluptate sunt?</p>
+	<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime assumenda veniam cupiditate iusto impedit sed similique in facilis! Adipisci molestias aperiam laudantium delectus voluptas quod alias tempora explicabo aspernatur accusantium. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non molestias neque dicta ipsa minima numquam officiis tempora et incidunt reiciendis ea, praesentium esse consectetur! Animi, distinctio facere? Minus, tempora aliquid! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae ad perspiciatis qui pariatur eos natus assumenda ratione est sunt eaque, ea numquam similique molestiae totam excepturi nostrum, quia distinctio voluptatem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Et in rem consequuntur odit, incidunt molestiae alias corporis consectetur error modi saepe rerum doloribus non nostrum, quisquam dignissimos voluptates voluptate sunt?</p>
+	<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime assumenda veniam cupiditate iusto impedit sed similique in facilis! Adipisci molestias aperiam laudantium delectus voluptas quod alias tempora explicabo aspernatur accusantium. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non molestias neque dicta ipsa minima numquam officiis tempora et incidunt reiciendis ea, praesentium esse consectetur! Animi, distinctio facere? Minus, tempora aliquid! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae ad perspiciatis qui pariatur eos natus assumenda ratione est sunt eaque, ea numquam similique molestiae totam excepturi nostrum, quia distinctio voluptatem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Et in rem consequuntur odit, incidunt molestiae alias corporis consectetur error modi saepe rerum doloribus non nostrum, quisquam dignissimos voluptates voluptate sunt?</p>
 </body>
 </html>
